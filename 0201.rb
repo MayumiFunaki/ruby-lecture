@@ -5,9 +5,11 @@
 
 # 実行すると0と出力するように修正してください。
 a = 8
-a X= 8
+#a X= 8
+a -= 8
 puts a
 # 実行するとPen-Pineapple-Apple-Penと出力するように修正してください。
 a = 'Pen-Pineapple-'
-a X=' Apple-Pen'
+#a X=' Apple-Pen'
+a +='Apple-Pen'
 puts a
